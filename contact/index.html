@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact &amp; Quote — Somnath Transport Service</title>
+  <meta name="description" content="Request a freight quote or contact Somnath Transport Service. Call (614) 555-0100 or submit our online form.">
+  <meta name="theme-color" content="#0A2342">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://somnathtransport.com/contact/">
+  <meta property="og:title" content="Contact & Quote — Somnath Transport Service">
+  <meta property="og:description" content="Request a freight quote. Call or fill out our form — we respond same-day.">
+  <meta property="og:image" content="https://somnathtransport.com/assets/img/og-card.svg">
+  <meta property="og:url" content="https://somnathtransport.com/contact/">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "mainEntity": {
+      "@type": "LocalBusiness",
+      "name": "Somnath Transport Service",
+      "telephone": "(614) 555-0100",
+      "email": "quotes@somnathtransport.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Columbus",
+        "addressRegion": "OH",
+        "addressCountry": "US"
+      }
+    }
+  }
+  </script>
+</head>
+<body data-page="contact">
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="/" class="brand">
+        <img src="/assets/img/logo.svg" alt="Somnath Transport Service" class="brand__logo" width="220" height="64">
+      </a>
+      <nav class="site-nav" data-nav aria-label="Main">
+        <div class="site-nav__links">
+          <a href="/" class="nav-link" data-nav-link="home">Home</a>
+          <a href="/services/" class="nav-link" data-nav-link="services">Services</a>
+          <a href="/contact/" class="nav-link" data-nav-link="contact">Contact</a>
+        </div>
+        <div class="nav-actions">
+          <a href="tel:+16145550100" class="header-phone">(614) 555-0100</a>
+          <a href="/contact/" class="btn btn--primary">Get a Quote</a>
+        </div>
+      </nav>
+      <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">Menu</button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Interior hero -->
+    <section class="hero hero--interior">
+      <div class="hero__inner">
+        <h1>Get a freight quote</h1>
+        <p class="hero__sub">Tell us what you're moving and where. We'll respond with a firm price — usually within hours.</p>
+      </div>
+    </section>
+
+    <!-- Contact + Form -->
+    <section class="section">
+      <div class="section__inner">
+        <div class="quote-grid">
+
+          <!-- Contact info -->
+          <div class="contact-info">
+            <h2>Talk to us directly</h2>
+            <ul class="contact-methods">
+              <li>
+                <span class="contact-methods__label">Phone</span>
+                <a href="tel:+16145550100">(614) 555-0100</a>
+              </li>
+              <li>
+                <span class="contact-methods__label">Email</span>
+                <a href="mailto:quotes@somnathtransport.com">quotes@somnathtransport.com</a>
+              </li>
+              <li>
+                <span class="contact-methods__label">Location</span>
+                <strong>Columbus, Ohio</strong>
+              </li>
+              <li>
+                <span class="contact-methods__label">Hours</span>
+                <strong>Mon–Fri 6:00 AM – 7:00 PM EST</strong>
+              </li>
+            </ul>
+            <p class="contact-note">Prefer a phone call? We pick up. No phone trees, no hold music — a real person answers during business hours.</p>
+          </div>
+
+          <!-- Quote form -->
+          <div class="form-section">
+            <h2>Request a quote</h2>
+            <p>Fill out the details below. Required fields are marked with *.</p>
+
+            <form action="/api/quote" method="POST" data-quote-form novalidate>
+              <div class="form-grid">
+                <div class="form-field">
+                  <label for="name">Full name *</label>
+                  <input type="text" id="name" name="name" required autocomplete="name" placeholder="Your name">
+                </div>
+                <div class="form-field">
+                  <label for="company">Company *</label>
+                  <input type="text" id="company" name="company" required autocomplete="organization" placeholder="Company name">
+                </div>
+                <div class="form-field">
+                  <label for="pickupLocation">Pickup location *</label>
+                  <input type="text" id="pickupLocation" name="pickupLocation" required placeholder="City, State">
+                </div>
+                <div class="form-field">
+                  <label for="dropLocation">Drop location *</label>
+                  <input type="text" id="dropLocation" name="dropLocation" required placeholder="City, State">
+                </div>
+                <div class="form-field">
+                  <label for="cargoType">Cargo type *</label>
+                  <input type="text" id="cargoType" name="cargoType" required placeholder="e.g. Palletized goods, machinery">
+                </div>
+                <div class="form-field">
+                  <label for="serviceType">Service type</label>
+                  <select id="serviceType" name="serviceType">
+                    <option value="">Select a service</option>
+                    <option value="Full Truckload (FTL)">Full Truckload (FTL)</option>
+                    <option value="Less Than Truckload (LTL)">Less Than Truckload (LTL)</option>
+                    <option value="Local Delivery Ohio">Local Delivery Ohio</option>
+                    <option value="Long-Haul Interstate">Long-Haul Interstate</option>
+                    <option value="Not sure">Not sure — advise me</option>
+                  </select>
+                </div>
+                <div class="form-field">
+                  <label for="phone">Phone *</label>
+                  <input type="tel" id="phone" name="phone" required autocomplete="tel" placeholder="(555) 555-5555">
+                </div>
+                <div class="form-field">
+                  <label for="email">Email *</label>
+                  <input type="email" id="email" name="email" required autocomplete="email" placeholder="you@company.com">
+                </div>
+                <div class="form-field form-field--full">
+                  <label for="message">Additional details</label>
+                  <textarea id="message" name="message" rows="4" placeholder="Timeline, special requirements, number of pallets, weight — anything that helps us quote accurately."></textarea>
+                </div>
+              </div>
+
+              <!-- Honeypot -->
+              <div class="form-field form-field--hidden" aria-hidden="true">
+                <label for="companyWebsite">Company website</label>
+                <input type="text" id="companyWebsite" name="companyWebsite" tabindex="-1" autocomplete="off">
+              </div>
+              <input type="hidden" name="startedAt" value="" data-started-at>
+
+              <div class="form-actions">
+                <button type="submit" class="btn btn--primary">Send Quote Request</button>
+              </div>
+              <div class="form-status" data-form-status role="status" aria-live="polite"></div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section section--navy">
+      <div class="section__inner">
+        <div class="cta-band">
+          <h2>Rather talk? Call us right now.</h2>
+          <div class="cta-band__actions">
+            <a href="tel:+16145550100" class="btn btn--white">Call (614) 555-0100</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer__inner">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-brand">Somnath Transport Service</p>
+          <p class="footer-tagline">Ohio-based freight and logistics. Full truckload, LTL, local delivery, and interstate service — reliable, transparent, on time.</p>
+        </div>
+        <div>
+          <p class="footer-heading">Services</p>
+          <ul class="footer-list">
+            <li><a href="/services/#ftl">Full Truckload</a></li>
+            <li><a href="/services/#ltl">Less Than Truckload</a></li>
+            <li><a href="/services/#local-delivery">Local Delivery Ohio</a></li>
+            <li><a href="/services/#interstate">Long-Haul Interstate</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-heading">Company</p>
+          <ul class="footer-list">
+            <li><a href="/contact/">Contact &amp; Quote</a></li>
+            <li><a href="/services/">All Services</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-heading">Contact</p>
+          <ul class="footer-list">
+            <li><a href="tel:+16145550100">(614) 555-0100</a></li>
+            <li><a href="mailto:quotes@somnathtransport.com">quotes@somnathtransport.com</a></li>
+            <li>Columbus, Ohio</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span data-current-year></span> Somnath Transport Service</span>
+        <span>USDOT &amp; MC# — Licensed &amp; Insured</span>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p style="padding:2rem;text-align:center;">This site works best with JavaScript enabled. You may also <a href="tel:+16145550100">call us</a> or <a href="mailto:quotes@somnathtransport.com">email us</a> directly.</p>
+  </noscript>
+  <script src="/assets/js/main.js" defer></script>
+  <script type="module" src="/assets/js/text-balance.js"></script>
+</body>
+</html>

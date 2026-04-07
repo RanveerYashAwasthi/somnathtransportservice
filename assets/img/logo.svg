@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 64" role="img" aria-labelledby="logo-title">
+  <title id="logo-title">Somnath Transport Service</title>
+  <defs>
+    <clipPath id="circle-clip"><circle cx="32" cy="32" r="30"/></clipPath>
+  </defs>
+
+  <!-- Circle mark -->
+  <circle cx="32" cy="32" r="30" fill="#7BAFD4"/>
+
+  <!-- Shiva silhouette group (clipped to circle) -->
+  <g clip-path="url(#circle-clip)">
+    <!-- Head and face -->
+    <ellipse cx="32" cy="30" rx="13" ry="16" fill="#0A2342"/>
+    <!-- Top-knot / jata -->
+    <path d="M26 16 Q24 4 32 2 Q40 4 38 16" fill="#0A2342"/>
+    <!-- Flowing hair left -->
+    <path d="M19 18 Q10 14 6 26 Q8 32 14 28 Q16 24 19 22Z" fill="#0A2342"/>
+    <!-- Flowing hair right -->
+    <path d="M45 18 Q54 14 58 26 Q56 32 50 28 Q48 24 45 22Z" fill="#0A2342"/>
+    <!-- Neck and shoulders -->
+    <path d="M22 44 Q22 40 26 38 L38 38 Q42 40 42 44 L48 52 Q32 56 16 52Z" fill="#0A2342"/>
+
+    <!-- Crescent moon on hair -->
+    <path d="M36 8 Q42 6 40 12 Q38 10 36 12Z" fill="#FEFEFE" opacity="0.9"/>
+
+    <!-- Tripundra (3 ash lines on forehead) -->
+    <line x1="25" y1="22" x2="39" y2="22" stroke="#FEFEFE" stroke-width="1" opacity="0.85"/>
+    <line x1="25" y1="24.5" x2="39" y2="24.5" stroke="#FEFEFE" stroke-width="1" opacity="0.85"/>
+    <line x1="25" y1="27" x2="39" y2="27" stroke="#FEFEFE" stroke-width="1" opacity="0.85"/>
+
+    <!-- Third eye dot -->
+    <circle cx="32" cy="20" r="2" fill="#F57C00"/>
+
+    <!-- Snake on left shoulder -->
+    <path d="M14 38 Q10 34 12 30 Q14 28 16 30 Q18 34 16 38" fill="none" stroke="#7BAFD4" stroke-width="1.5" opacity="0.7"/>
+
+    <!-- Rudraksha necklace dots -->
+    <circle cx="24" cy="40" r="1.2" fill="#7BAFD4" opacity="0.6"/>
+    <circle cx="28" cy="41.5" r="1.2" fill="#7BAFD4" opacity="0.6"/>
+    <circle cx="32" cy="42" r="1.2" fill="#7BAFD4" opacity="0.6"/>
+    <circle cx="36" cy="41.5" r="1.2" fill="#7BAFD4" opacity="0.6"/>
+    <circle cx="40" cy="40" r="1.2" fill="#7BAFD4" opacity="0.6"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="76" y="28" font-family="'Barlow Condensed','Arial Narrow',sans-serif" font-weight="800" font-size="24" fill="#0A2342" letter-spacing="1">SOMNATH</text>
+  <text x="76" y="46" font-family="'Barlow Condensed','Arial Narrow',sans-serif" font-weight="500" font-size="12.5" fill="#6B7280" letter-spacing="3">TRANSPORT SERVICE</text>
+</svg>

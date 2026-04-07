@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-labelledby="title desc">
+  <title id="title">Freight route illustration</title>
+  <desc id="desc">A stylized tractor-trailer moving from Ohio across interstate freight lanes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A2342" />
+      <stop offset="100%" stop-color="#1A4875" />
+    </linearGradient>
+    <linearGradient id="lane" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F57C00" stop-opacity="0.15" />
+      <stop offset="50%" stop-color="#F57C00" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#F57C00" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="720" rx="44" fill="url(#bg)" />
+  <path d="M-40 612C168 560 235 477 377 409c129-62 274-44 624-197" fill="none" stroke="url(#lane)" stroke-width="26" stroke-linecap="round" />
+  <path d="M-40 556C197 508 331 346 525 307c99-20 221-17 475-106" fill="none" stroke="#fff" stroke-opacity=".13" stroke-width="2" stroke-dasharray="14 18" />
+  <path d="M-40 648C190 602 281 564 412 495c122-64 210-67 588-239" fill="none" stroke="#fff" stroke-opacity=".13" stroke-width="2" stroke-dasharray="14 18" />
+  <g transform="translate(164 324)">
+    <rect x="68" y="84" width="316" height="148" rx="22" fill="#F9F4EB" />
+    <path d="M384 118h128l82 90v24H384z" fill="#DCE7F4" />
+    <rect x="98" y="116" width="72" height="60" rx="10" fill="#DCE7F4" />
+    <rect x="182" y="116" width="72" height="60" rx="10" fill="#DCE7F4" />
+    <rect x="266" y="116" width="72" height="60" rx="10" fill="#DCE7F4" />
+    <circle cx="174" cy="252" r="34" fill="#07182F" />
+    <circle cx="174" cy="252" r="15" fill="#F9F4EB" />
+    <circle cx="468" cy="252" r="34" fill="#07182F" />
+    <circle cx="468" cy="252" r="15" fill="#F9F4EB" />
+    <circle cx="560" cy="252" r="34" fill="#07182F" />
+    <circle cx="560" cy="252" r="15" fill="#F9F4EB" />
+    <rect x="406" y="146" width="72" height="44" rx="8" fill="#F9F4EB" />
+    <path d="M505 118l56 60h-56z" fill="#F57C00" opacity=".88" />
+  </g>
+  <g transform="translate(648 86)">
+    <circle cx="78" cy="78" r="78" fill="#F57C00" fill-opacity=".16" />
+    <circle cx="78" cy="78" r="44" fill="#F57C00" fill-opacity=".22" />
+    <path d="M78 34v88M34 78h88" stroke="#F57C00" stroke-width="10" stroke-linecap="round" />
+  </g>
+  <text x="76" y="120" fill="#F9F4EB" font-family="'Barlow Semi Condensed', Arial Narrow, sans-serif" font-size="54" font-weight="800" letter-spacing="2">OHIO TO USA</text>
+  <text x="76" y="168" fill="#C9D8E9" font-family="'Public Sans', sans-serif" font-size="26">Freight lanes built for local delivery and interstate coverage.</text>
+</svg>
