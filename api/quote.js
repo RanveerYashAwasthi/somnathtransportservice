@@ -135,7 +135,7 @@ module.exports = async (req, res) => {
   if (!resendApiKey || !quoteEmailTo || !quoteEmailFrom) {
     json(res, 500, {
       ok: false,
-      message: "Email delivery is not configured yet. Please call (614) 555-0100."
+      message: "Email delivery is not configured yet. Please call (614) 549-9407."
     });
     return;
   }
@@ -232,7 +232,7 @@ module.exports = async (req, res) => {
       console.error("Resend email error:", resendError);
       json(res, 502, {
         ok: false,
-        message: "We could not send your request right now. Please call (614) 555-0100."
+        message: "We could not send your request right now. Please call (614) 549-9407."
       });
       return;
     }
@@ -245,7 +245,7 @@ module.exports = async (req, res) => {
     console.error("Quote request failed:", error);
     json(res, 502, {
       ok: false,
-      message: "We could not send your request right now. Please call (614) 555-0100."
+      message: "We could not send your request right now. Please call (614) 549-9407."
     });
   }
 };
