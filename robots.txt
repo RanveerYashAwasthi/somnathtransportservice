@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.somnathtransport.com/sitemap.xml
+Sitemap: https://somnathtransportservice.com/sitemap.xml

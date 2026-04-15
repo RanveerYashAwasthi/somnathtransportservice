@@ -50,7 +50,7 @@ Required environment variables:
 
 1. Replace placeholder social URLs if you have real profiles.
 2. Replace placeholder address, testimonials, and proof points if available.
-3. Confirm `https://www.somnathtransport.com` is the final production domain. If it is different, update:
+3. Confirm `https://somnathtransportservice.com` is the final production domain. If it is different, update:
    - canonical tags in the HTML files
    - Open Graph URLs in the HTML files
    - `robots.txt`
