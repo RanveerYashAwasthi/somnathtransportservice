@@ -1328,7 +1328,7 @@ p, ul, ol, blockquote {
 
 @media (max-width: 640px) {
   .site-header {
-    position: static;
+    position: relative;
   }
 
   .site-header__inner {
