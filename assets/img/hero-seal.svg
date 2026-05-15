@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" aria-hidden="true">
+  <defs>
+    <linearGradient id="seal-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f3c86a"/>
+      <stop offset="100%" stop-color="#cf8a14"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M88 173c27-67 87-103 162-100 42 2 82 16 116 40" fill="none" stroke="#f8fafc" stroke-linecap="round" stroke-opacity="0.78" stroke-width="10"/>
+  <path d="M336 294c-31 44-80 72-136 73-69 2-134-39-166-101" fill="none" stroke="url(#seal-gold)" stroke-linecap="round" stroke-width="11"/>
+
+  <g transform="translate(266 84)">
+    <path d="M38 6 51 61 38 49 25 61Z" fill="url(#seal-gold)"/>
+    <rect x="34" y="47" width="8" height="130" rx="4" fill="url(#seal-gold)"/>
+    <path d="M27 69c0 12-8 21-20 21-12 0-22-9-22-22 0-18 12-31 12-58 16 15 12 39 9 50-2 8 2 15 10 15 6 0 11-4 11-10Z" fill="url(#seal-gold)"/>
+    <path d="M49 69c0 12 8 21 20 21 12 0 22-9 22-22 0-18-12-31-12-58-16 15-12 39-9 50 2 8-2 15-10 15-6 0-11-4-11-10Z" fill="url(#seal-gold)"/>
+    <rect x="23" y="177" width="30" height="8" rx="4" fill="url(#seal-gold)"/>
+    <rect x="26" y="187" width="24" height="9" rx="4.5" fill="url(#seal-gold)"/>
+  </g>
+</svg>
