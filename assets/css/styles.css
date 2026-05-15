@@ -107,7 +107,7 @@ p, ul, ol, blockquote {
 }
 
 .brand__logo {
-  height: clamp(52px, 5vw, 64px);
+  height: clamp(82px, 8vw, 112px);
   width: auto;
   object-fit: contain;
   filter: drop-shadow(0 1px 2px rgba(0,0,0,0.15));
@@ -376,18 +376,6 @@ p, ul, ol, blockquote {
   gap: 3rem;
   position: relative;
   z-index: 1;
-}
-
-.hero--home::before {
-  content: "";
-  position: absolute;
-  right: clamp(1rem, 4vw, 3rem);
-  bottom: clamp(-5rem, -3vw, -1.5rem);
-  width: clamp(220px, 30vw, 380px);
-  aspect-ratio: 1;
-  background: url('/assets/img/hero-seal.svg') center / contain no-repeat;
-  opacity: 0.34;
-  pointer-events: none;
 }
 
 .hero h1 {
@@ -1215,13 +1203,6 @@ p, ul, ol, blockquote {
 
 /* ── Responsive ── */
 @media (max-width: 900px) {
-  .hero--home::before {
-    right: -2rem;
-    bottom: -3.5rem;
-    width: 240px;
-    opacity: 0.22;
-  }
-
   .hero__facts {
     grid-template-columns: 1fr;
     gap: 0;
@@ -1240,6 +1221,7 @@ p, ul, ol, blockquote {
   .hero__fact:last-child {
     border-bottom: none;
   }
+
 
   .service-item {
     grid-template-columns: 1fr;
